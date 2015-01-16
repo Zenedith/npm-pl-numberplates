@@ -1,0 +1,49 @@
+{
+  "name": "pl-numberplates",
+  "version": "0.5.0",
+  "description": "Node JS package to validate PL number plates.",
+  "main": "./index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "istanbul": "^0.3.5",
+    "mocha": "^2.1.0"
+  },
+  "scripts": {
+    "prepublish": "npm prune",
+    "test": "mocha test/*",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --check-leaks test/*",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --check-leaks test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zenedith/npm-pl-numberplates.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Zenedith/npm-pl-numberplates/issues"
+  },
+  "keywords": [
+    "registration",
+    "marks",
+    "number",
+    "plate",
+    "vehicle",
+    "reg",
+    "validation",
+    "numberplate",
+    "car"
+  ],
+  "author": {
+    "name": "Zenedith",
+    "email": "zenedith@wp.pl"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Zenedith/npm-pl-numberplates",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "readmeFilename": "README.md",
+  "_id": "pl-numberplates@0.5.0",
+  "_from": "pl-numberplates@^0.5.0"
+}
