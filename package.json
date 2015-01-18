@@ -1,6 +1,6 @@
 {
   "name": "pl-numberplates",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "Node JS package to validate PL number plates.",
   "main": "./index.js",
   "dependencies": {
@@ -44,6 +44,6 @@
     "node": ">=0.10.0"
   },
   "readmeFilename": "README.md",
-  "_id": "pl-numberplates@0.5.1",
-  "_from": "pl-numberplates@^0.5.1"
+  "_id": "pl-numberplates@0.5.2",
+  "_from": "pl-numberplates@^0.5.2"
 }
