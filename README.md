@@ -5,7 +5,7 @@
 
 [![NPM](https://nodei.co/npm/pl-numberplates.png?downloads=true&stars=true)](https://nodei.co/npm/pl-numberplates/)
 
-Node JS package to validate PL number plates.
+Node JS package to validate Poland number plates.
 
 ## Installation
 

@@ -9,8 +9,8 @@ describe('poland plate validator test', function () {
     var plate = 'AAA11111';
 
     polandPlateValidator.validate(plate, function (err, data) {
-      expect(err, plate + ' should be valid').is.false;
-      data.plate.should.equal('AAA11111');
+      expect(err, plate + ' should be valid').is.null;
+      data.plate.should.equal('AAA 11111');
       done();
     });
   });
@@ -19,8 +19,8 @@ describe('poland plate validator test', function () {
     var plate = 'AAA 11AA';
 
     polandPlateValidator.validate(plate, function (err, data) {
-      expect(err, plate + ' should be valid').is.false;
-      data.plate.should.equal('AAA11AA');
+      expect(err, plate + ' should be valid').is.null;
+      data.plate.should.equal('AAA 11AA');
       done();
     });
   });
