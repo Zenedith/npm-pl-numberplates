@@ -1,6 +1,6 @@
 {
   "name": "pl-numberplates",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "description": "Node JS package to validate Poland number plates.",
   "main": "./index.js",
   "dependencies": {
@@ -12,9 +12,9 @@
   },
   "scripts": {
     "prepublish": "npm prune",
-    "test": "mocha test/*",
-    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --check-leaks test/*",
-    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --check-leaks test/*"
+    "test": "mocha --recursive test",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --check-leaks --recursive test",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --check-leaks --recursive test"
   },
   "repository": {
     "type": "git",
@@ -45,6 +45,6 @@
     "node": ">=0.10.0"
   },
   "readmeFilename": "README.md",
-  "_id": "pl-numberplates@0.5.3",
-  "_from": "pl-numberplates@^0.5.3"
+  "_id": "pl-numberplates@0.5.4",
+  "_from": "pl-numberplates@^0.5.4"
 }
