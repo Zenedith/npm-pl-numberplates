@@ -33,7 +33,10 @@ var formats = [
 
   { input: 'X0ABCDE', output: {plate: 'X 0ABCDE', prefix: 'X', number: '0ABCDE'} },
   { input: 'X0ABCD1', output: {plate: 'X 0ABCD1', prefix: 'X', number: '0ABCD1'} },
-  { input: 'X0ABC12', output: {plate: 'X 0ABC12', prefix: 'X', number: '0ABC12'} }
+  { input: 'X0ABC12', output: {plate: 'X 0ABC12', prefix: 'X', number: '0ABC12'} },
+
+  { input: 'XY1234', output: {plate: 'XY 1234', prefix: 'XY', number: '1234'} },
+  { input: 'XY123A', output: {plate: 'XY 123A', prefix: 'XY', number: '123A'} }
 ];
 
 describe('plate resolver test', function () {
