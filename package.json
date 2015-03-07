@@ -1,6 +1,6 @@
 {
   "name": "pl-numberplates",
-  "version": "0.5.4",
+  "version": "0.5.5",
   "description": "Node JS package to validate Poland number plates.",
   "main": "./index.js",
   "dependencies": {
@@ -45,6 +45,6 @@
     "node": ">=0.10.0"
   },
   "readmeFilename": "README.md",
-  "_id": "pl-numberplates@0.5.4",
-  "_from": "pl-numberplates@^0.5.4"
+  "_id": "pl-numberplates@0.5.5",
+  "_from": "pl-numberplates@^0.5.5"
 }
