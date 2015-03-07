@@ -17,6 +17,7 @@ var formats = [
   { input: 'OYZ12A3', output: {plate: 'OYZ 12A3', prefix: 'OYZ', number: '12A3', state: 'opolskie'} },
   { input: 'PYZ1AC2', output: {plate: 'PYZ 1AC2', prefix: 'PYZ', number: '1AC2', state: 'wielkopolskie'} },
   { input: 'RYZAC12', output: {plate: 'RYZ AC12', prefix: 'RYZ', number: 'AC12', state: 'podkarpackie'} },
+  { input: 'SYZ1234', output: {plate: 'SYZ 1234', prefix: 'SYZ', number: '1234', state: 'śląskie'} },
   { input: 'SYZ12345', output: {plate: 'SYZ 12345', prefix: 'SYZ', number: '12345', state: 'śląskie'} },
   { input: 'TYZ1234A', output: {plate: 'TYZ 1234A', prefix: 'TYZ', number: '1234A', state: 'świętokrzyskie'} },
   { input: 'WYZ123AC', output: {plate: 'WYZ 123AC', prefix: 'WYZ', number: '123AC', state: 'mazowieckie'} },
