@@ -1,7 +1,9 @@
 # pl-numberplates
 [![npm version](https://badge.fury.io/js/pl-numberplates.svg)](http://badge.fury.io/js/pl-numberplates)
+[![bitHound Score](https://www.bithound.io/github/Zenedith/npm-pl-numberplates/badges/score.svg)](https://www.bithound.io/github/Zenedith/npm-pl-numberplates)
 [![Coverage Status](https://coveralls.io/repos/Zenedith/npm-pl-numberplates/badge.svg?branch=master)](https://coveralls.io/r/Zenedith/npm-pl-numberplates?branch=master)
 [![Build Status](https://travis-ci.org/Zenedith/npm-pl-numberplates.svg?branch=master)](https://travis-ci.org/Zenedith/npm-pl-numberplates)
+[![Dependency Status](https://david-dm.org/Zenedith/npm-pl-numberplates.svg)](https://david-dm.org/Zenedith/npm-pl-numberplates)
 [![devDependency Status](https://david-dm.org/Zenedith/npm-pl-numberplates/dev-status.svg)](https://david-dm.org/Zenedith/npm-pl-numberplates#info=devDependencies)
 
 [![NPM](https://nodei.co/npm/pl-numberplates.png?downloads=true&stars=true)](https://nodei.co/npm/pl-numberplates/)
