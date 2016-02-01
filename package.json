@@ -1,14 +1,14 @@
 {
   "name": "pl-numberplates",
-  "version": "0.6.0",
+  "version": "1.0.0",
   "description": "Node JS package to validate Poland number plates.",
   "main": "./index.js",
   "dependencies": {
   },
   "devDependencies": {
-    "chai": "^3.4.1",
-    "istanbul": "^0.4.1",
-    "mocha": "^2.3.4"
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.4.5"
   },
   "scripts": {
     "prepublish": "npm prune",
@@ -45,6 +45,6 @@
     "node": ">=0.10.0"
   },
   "readmeFilename": "README.md",
-  "_id": "pl-numberplates@0.6.0",
-  "_from": "pl-numberplates@^0.6.0"
+  "_id": "pl-numberplates@1.0.0",
+  "_from": "pl-numberplates@^1.0.0"
 }
