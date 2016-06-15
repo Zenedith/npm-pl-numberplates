@@ -3,12 +3,11 @@
   "version": "1.0.0",
   "description": "Node JS package to validate Poland number plates.",
   "main": "./index.js",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "chai": "^3.5.0",
-    "istanbul": "^0.4.2",
-    "mocha": "^2.4.5"
+    "istanbul": "0.4.3",
+    "mocha": "2.5.3"
   },
   "scripts": {
     "prepublish": "npm prune",
