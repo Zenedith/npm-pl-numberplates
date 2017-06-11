@@ -2,6 +2,7 @@ var chai = require('chai');
 var should = chai.should();
 var index = require('../index');
 var resolver = index.resolver;
+var expect = chai.expect;
 
 describe('index test', function () {
 
@@ -9,8 +10,7 @@ describe('index test', function () {
 
     var validate = index.validate;
     should.exist(validate);
-    validate.should.be.function;
-
+    expect(validate).to.be.a('function');
     done();
   });
 
@@ -18,7 +18,7 @@ describe('index test', function () {
 
     var isValid = index.isValid;
     should.exist(isValid);
-    isValid.should.be.function;
+    expect(isValid).to.be.a('function');
 
     done();
   });
